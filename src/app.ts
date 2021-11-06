@@ -12,7 +12,7 @@ const app = express()
 app.use(express.json())
 app.use(cors({origin: '*'}))
 app.use(morgan('dev'))
-app.use(helmet())
+// app.use(helmet())
 
 app.get('/', (req:Request, res:Response, next:NextFunction) => {
   res.status(200).json({message: 'Root route'})
