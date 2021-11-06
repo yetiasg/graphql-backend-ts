@@ -5,7 +5,7 @@ import { resolvers } from './graphql/resolvers'
 import { connect } from 'mongoose'
 import cors from 'cors'
 import morgan from 'morgan'
-import helmet from 'helmet'
+// import helmet from 'helmet'
 import { config } from './config'
 
 const app = express()
